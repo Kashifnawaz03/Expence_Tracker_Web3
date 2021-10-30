@@ -1,0 +1,49 @@
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+th {
+  background-color: #4287f5;
+  color: white;
+}
+
+td {
+  width: 100px;
+  text-align: center;
+  padding: 0px;
+  background-color:white;
+}
+button{
+    border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+margin-top: 5px;
+background-color: blue;
+}
+
+.ledger{
+    display: flex;
+    border: 1px solid #dedede;
+    padding: 10px;
+    background-color: azure;
+width: 100%;
+  }
+
+.vline{
+    border-left: 2px solid green;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 80px;
+}
